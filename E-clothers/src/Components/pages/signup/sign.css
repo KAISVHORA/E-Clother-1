@@ -1,0 +1,62 @@
+
+.form-sign{
+    max-width: 700px;
+    margin:140px auto 30px auto;
+    /* background-color: rgba(197, 204, 255, 0.763); */
+    background-image: linear-gradient(to left, #0188D3 50%, white 50%);
+    /* padding:50px 30px; */
+    box-shadow:#00308f8b 0px 1px 3px 0px, #00308f5e  0px 0px 0px 1px;
+}
+.image-left-sign {
+    text-align: center;
+}
+.image-left-sign img {
+    width:250px;
+}
+.image-left-sign, .content-right-sign{
+   padding: 50px 30px;
+}
+.image-left-sign h1{
+    font-size: 20px;
+    font-weight: var(--font-weight-5);
+    text-align: center;
+    color: var(--text-color-Force-blue);
+    margin:25px 0;
+}
+.content-right-form{
+    margin:25px 0;
+}
+.content-right-sign .Title-icons{
+    display: flex;
+    align-items: center;
+    color: var(--text-color-white);
+}
+.content-right-sign .Title-icons .cart-sign{
+    font-size: 45px;
+    margin-right: 10px;
+}
+.content-right-sign .Title-icons .title-store{
+    font-size: 35px;
+    font-weight: var(--font-weight-500);
+}
+.content-right-form input{
+    border: none;
+    border-bottom: 2px solid var(--text-color-white);
+    font-weight: var(--font-weight-5);
+    background-color:transparent;
+    color:white;
+}
+.content-right-sign .Primary-B, .image-left-sign .Primary-B{
+    width:100%;
+}
+ .content-right-sign .Primary-B {
+       background-color: var(--background-color-white);
+       color:var(--text-color-white) !important;
+}
+.content-right-sign .Primary-B:hover{
+     background-color: var(--text-color-Force-blue);
+     border: 1px solid white;
+}
+.content-right-sign .Primary-B:hover a {
+     color: var(--text-color-white);
+}

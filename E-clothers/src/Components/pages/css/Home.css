@@ -1,0 +1,362 @@
+
+
+.clothers-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:140px 0 0 0;
+    background-image: linear-gradient(120deg, #4ac0ff 50%, #015EAC 50%);
+    position: relative;
+    margin-bottom: 2rem;
+}
+.skybehinda{
+    width:350px;
+    height:350px;
+    background:linear-gradient(to left, rgba(255, 255, 255, 0.623),rgba(0, 0, 255, 0));
+    border-radius: 50%;
+    position: absolute;
+    top:10rem;
+    right:10rem;
+}
+.right-image img{
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    right:-100px;
+}
+.left-content h1{
+    color: var(--text-color-Force-blue);
+    margin:20px 0;
+    font-size: 2.3rem;
+    font-weight: var(--font-weight-7);
+}
+.left-content h5{
+    color:var(--text-color-Force-blue);
+    font-size: 1.1rem;
+    font-weight: var(--font-weight-5);
+}
+.left-content h5::before{
+    content:'';
+    position: absolute;
+    width:65px;
+    height:30px;
+    border-radius: 10px;
+    background-image:linear-gradient( rgba(255, 255, 255, 0.45),rgba(0, 0, 255, 0));
+}
+
+.Text-caption{
+    text-align: center;
+    padding:0 15px;
+}
+.Cards{
+    width:280px;
+    background-color: var(--background-color-white);
+    border-radius: 10px;
+    padding:25px 15px;
+    text-align: center;
+    margin:1.5rem 0.5rem;
+}
+.Cards .icons-card{
+    font-size: 3.6rem;
+    color: var(--text-color-blue);
+}
+.Cards h1{
+    font-size: 1.2rem;
+    color: var(--text-color-Force-blue);
+    margin:0.5rem 0;
+}
+.Cards p{
+    font-size: 1rem;
+    color: var(--text-color-blue);
+    line-height: 1.2;
+}
+.Text-caption h1 {
+    color: var(--text-color-Force-blue);
+}
+.row-1{
+    align-items: center;
+    justify-content: space-between;
+    margin:30px 0;
+    /* gap:1px; */
+}
+.Arrow-r-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons-arrow{
+    border-radius: 50%;
+    background-color:var(--text-color-Force-blue);
+    font-size: 2rem;
+    margin:0 5px 0 0;
+    cursor: pointer;
+    color: var(--text-color-white);
+    padding:5px;
+    transition: all 0.5s ease-in 0s;
+}
+.icons-arrow:hover{
+    background-color: transparent;
+    border:1px solid var(--text-color-Force-blue);
+    color: var(--text-color-Force-blue);
+}
+.clother-picks{
+    position: relative;
+}
+.Overlay-picks{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.clother-picks h3{
+    position: absolute;
+    top:80px;
+    left:0px;
+    right:0px;
+    text-align:center;
+    background-color:var( --background-color-whitesky);
+    padding: 10px 25px;
+    color: var(--text-color-white);
+    border-radius: 10px;
+}
+/* .col-4{
+    width:20%;
+} */
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+    gap:10px;
+}
+/* clother-picks */
+
+/* End-clother-picks */
+
+/* Offers-news */
+
+.bg-content-offers form{
+    display: flex;
+    gap:10px;
+}
+.bg-content-offers form .small-button{
+    width:30%;
+}
+.email-icons-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:70%;
+}
+.email-icons-1 .e-icons{
+    position: absolute;
+    left:20px;
+    font-size: 1.3rem;
+    color: var(--text-color-Force-blue);
+}
+.email-icons-1 input{
+    width:100%;
+    padding:20px 50px;
+}
+.img-overlay{
+    position: relative;
+}
+.img-overlay img {
+    width:100%;
+    height: 420px;
+      overflow: hidden;
+}
+.img-overlay .overlay-content{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color: var( --text-color-whitesome);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding:20px;
+}
+.overlay-content h5{
+    color: var(--background-color-white);
+    font-weight: var(--font-weight-1);
+}
+.overlay-content h1{
+    color: var(--background-color-white);
+    font-weight: var(--font-weight-6);
+    font-size: 2rem;
+    line-height: 1;
+    margin: 10px 0;
+}
+.overlay-content .Primary-B{
+    margin:10px 0;
+}
+.offers-new{
+    height: 420px;
+    background-color: var(--background-color-sky);
+    margin:5rem 0;
+}
+.bg-content-offers{
+    padding:0 60px;
+    text-align: center;
+}
+.bg-content-offers h1{
+    font-size: 1.9rem;
+    font-weight: var(--font-weight-5);
+    color:  var(--text-color-white);
+    line-height: 1.1;
+}
+.bg-content-offers p{
+    font-size: 1.3rem;
+    font-weight: var(--font-weight);
+      color:  var(--text-color-white);
+      margin-top: 10px;
+}
+.content-offers-form{
+    margin:20px 0;
+}
+/* End-Offers-news */
+
+
+/* ProductAll */
+.Products-Card{
+    position: relative;
+    background-color: var(--background-color-white);
+    border-radius: 10px;
+    width:280px;
+}
+.Products-Card img{
+    width:100%;
+}
+.Products-Card .badge{
+    position: absolute;
+    top:10px;
+    left:10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: var(--font-weight-4);
+    font-size: 0.8rem;
+    color:var(--text-color-white) !important;
+}
+.Products-Card .new{
+    background-color: rgb(42, 255, 42);
+}
+.Products-Card .old-sales{
+    background-color: red;
+}
+.Products-Card h4{
+    font-size: 1rem;
+    color: var(--background-color-blue);
+    font-weight: var(--font-weight-6);
+}
+.Products-Card .Price{
+    font-size: bold;
+    font-weight: var(--font-weight-6);
+    color: var(--text-color-Force-blue);
+    padding-bottom: 10px;
+}
+.Products-Card del{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: var(--background-color-blue);
+}
+.Products-Card h4,.Price{
+    padding: 2px 20px;
+}
+.Cart-btn{
+    position: absolute;
+    bottom: 70px;
+    opacity:0;
+    width:80%;
+    margin:0 25px;
+    background-color: var(--text-color-Force-blue);
+    color: var(--text-color-white);
+    transition: 0.3s;
+}
+.Products-Card:hover .Cart-btn{
+    opacity: 1;
+    cursor: pointer;
+}
+/* End-ProductAll */
+
+
+
+
+
+
+
+
+
+
+/* Brands-logo */
+.brands{
+    width:200px;
+    height: 200px;
+    background-color: var(--background-color-white);
+    border-radius: 20px;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* box-shadow: #015EAC 0px 1px 8px 0px; */
+    box-shadow: #015EAC  0px 1px 3px 0px, #015EAC  0px 0px 0px 1px;
+}
+.brands img{
+    width:100%;
+}
+/* End-Brands-logo */
+
+@media screen and (max-width:768px) {
+    .row{
+        flex-direction: column-reverse;
+}
+    .skybehinda{
+        opacity: 0;
+}
+.right-image img{
+    right:0;
+    bottom:50px;
+    overflow: hidden;
+    width:100%;
+}
+.clothers-bg{
+    background-image: linear-gradient(to right, #4ac0ff 80%, #015fac 50%);
+    position: relative;
+    height:100%;
+    padding:140px 20px 50px 20px;
+}
+.Cards{
+    width:100%;
+    padding:30px 15px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap:10px;
+}
+.col-3{
+    width: 100%;
+}
+.row-2{
+    gap:20px;
+}
+.offers-new{
+    flex-direction: column;
+    height: 100%;
+}
+.bg-content-offers{
+    padding:70px 50px;
+}
+.bg-content-offers form{
+    display: inline-block;
+}
+.bg-content-offers form .small-button,.email-icons-1{
+   width:100%;
+}
+}
+
+/* .col-3{
+    width:20%;
+} */

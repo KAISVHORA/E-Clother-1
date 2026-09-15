@@ -1,0 +1,202 @@
+
+.Filters-page,.pages{
+    margin: 100px 0 40px 0;
+}
+ul.breadcrumbs{
+    display: flex;
+}
+li.breadcrumbs-items a{
+    font-size: 14px;
+    color: var(--text-color-Force-blue);
+    font-weight: 500;
+}
+li.activ-disabled a{
+    color: gray;
+    cursor:not-allowed;
+}
+.row-group{
+    display: flex;
+}
+.Sort-left{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: 1rem;
+}
+span.sort-menus{
+    font-size: 1.2rem;
+    border: 1px solid var(--text-color-Force-blue);
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+       border-radius: 2px;
+}
+.menus-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-color-gray);
+}
+.form-select select {
+    width:180px;
+    padding: 8px 3px;
+    border: 1px solid var(--background-color-black);
+    outline: none;
+    color: var(--text-color-gray);
+    border-radius: 2px;
+    background-color: transparent;
+}
+.form-select select option{
+    color: var(--text-color-gray);
+    background-color: var(--background-color-whitesome);
+}
+.Sort-right .count-show{
+    font-size: 1rem;
+    color: var(--background-color-black);
+}
+.Sort-right span.count-end{
+    font-weight: 400;
+    color: var( --text-color-gray) !important;
+}
+
+/* pagination */
+ul.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination a.page-link{
+    color: var(--text-color-Force-blue);
+    font-size:1rem;
+    padding:10px 20px;
+}
+.pagination li.page-item:hover > a.page-link{
+    color: var(--text-color-white);
+    background-color: var(--background-color-blue);
+    border-radius: 10px;
+}
+.arrow-flex a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+}
+/* End-pagination */
+
+/* colums-1 filters-left */
+.row-filters .title-Filters{
+    font-size: 1.3rem;
+    color: var(--background-color-blue);
+}
+.row-filters .text-Filters{
+    font-size: 1rem;
+    color: red;
+}
+
+.row-filters, .row-filters-1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.categeories-group .row-filters .title-categories{
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-500);
+    color: var(--text-color-Force-blue);
+}
+.categeories-group .bg-catergories {
+    background-color: var(--background-color-whitesome);
+    padding:5px;
+    margin:20px 0 15px 0;
+}
+.categeories-group .row-filters .line-icons{
+    font-size: 1.1rem;
+        color: var(--text-color-Force-blue);
+}
+.categories-items input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border:none;
+    outline: none;
+}
+.categories-items .title-order{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--background-color-blue);
+    margin:8px 0;
+}
+.categories-items .title-price{
+    color: var(--text-color-blue);
+    font-size: 1rem;
+}
+.progress{
+    width:100%;
+    height:4px;
+    background-color: var(--background-color-white);
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px 0;
+}
+.progress .progress-btn{
+    width:70%;
+    height: 3px;
+    background-color: var(--background-color-blue);
+    display: flex;
+    align-items: center;
+}
+.progress .progress-btn::before{
+    position: absolute;
+    content: '';
+    width:10px;
+    height:10px;
+    left:27px;
+    border-radius: 50%;
+    background-color: var(--background-color-sky);
+}
+.progress .progress-btn::after{
+    position: absolute;
+    content: '';
+    width:10px;
+    height:10px;
+    right:27px;
+    border-radius: 50%;
+    background-color: var(--background-color-sky);
+}
+.Num-count{
+    text-align: center;
+    margin:10px 0;
+    cursor: pointer;
+}
+.Num-count .title-num{
+    font-size: 1rem;
+    font-weight: var(--font-weight-500);
+    color: red;
+}
+.size-num {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    margin: 10px 0;
+}
+/* End-colums-1 filters-left */
+
+
+/* colums-1 */
+.colums-1{
+    width:25%;
+    height:100%;
+    border:1px solid var( --background-color-bluewhite);
+    border-radius: 2px;
+    padding:10px 15px;
+    margin-top: 25px;
+}
+ .colums-2{
+    width:75%;
+    height:100%;
+    margin:0 0 0 15px;
+ }
+ /* End-colums-1 */

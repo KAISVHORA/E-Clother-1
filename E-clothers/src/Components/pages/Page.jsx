@@ -10,6 +10,7 @@ import { MdOutlineLocalOffer } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from 'react-router-dom'
+import productImage from '../../assets/41kDS6JIn-L._SL500_.jpg';
 
 
 
@@ -27,12 +28,12 @@ const Page = () => {
             </div>
                 <div className='row row-3'>
                     <div className='col-1 img-cart-left'>
-                        <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
+                        <img src={productImage} alt='Product'></img>
 
                         <div className='photo-menu-cart'>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
                         </div>
 
                     </div>
@@ -56,9 +57,9 @@ const Page = () => {
                        <div className='mores-color'>
                         <h5 className='title-mores'>More Colors</h5>
                         <div className='img-mores'>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
-                            <img src='src/assets/41kDS6JIn-L._SL500_.jpg'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
+                            <img src={productImage} alt='Product thumbnail'></img>
                         </div>
                         <div className='name-size'>
                             <div className='select-content'>
@@ -202,7 +203,7 @@ const Page = () => {
                         <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <button className='Cart-btn'>Add to cart</button>
@@ -211,7 +212,7 @@ const Page = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge old-sales'>Sale</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <button className='Cart-btn'>Add to cart</button>
@@ -220,7 +221,7 @@ const Page = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <button className='Cart-btn'>Add to cart</button>
@@ -229,7 +230,7 @@ const Page = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <button className='Cart-btn'>Add to cart</button>

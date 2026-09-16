@@ -6,6 +6,13 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { MdFiberNew } from "react-icons/md";
 import { FaShippingFast } from "react-icons/fa";
+import heroImage from '../../assets/clother.png';
+import offerImage from '../../assets/clother-offers.png';
+import productImage from '../../assets/41kDS6JIn-L._SL500_.jpg';
+import productImageTwo from '../../assets/41ju4jdKW9L._SL500_.jpg';
+import productImageThree from '../../assets/41sjV7SFr6L._SL500_.jpg';
+import productImageFour from '../../assets/41tfrlPfA8L._SL500_.jpg';
+import brandLogo from '../../assets/logo.png';
 
 
 
@@ -21,7 +28,7 @@ const Home = () => {
                         <button className='Primary-B'>Shop Now</button>
                     </div>
                     <div className='right-image col-1'>
-                                                <img src='src/assets/clother.png' alt='clother'></img>
+                                                <img src={heroImage} alt='clother'></img>
                          <div className='skybehinda'></div>
                     </div>
                 </div>
@@ -81,7 +88,7 @@ const Home = () => {
                     <div className='col-4'>
                         <div className='clother-picks'>
                             <div className='Overlay-picks'>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashin-t-shirt'></img>
+                                <img src={productImage} alt='fashin-t-shirt'></img>
                             </div>
                             <h3>Sale</h3>
                         </div>
@@ -89,7 +96,7 @@ const Home = () => {
                       <div className='col-4'>
                         <div className='clother-picks'>
                             <div className='Overlay-picks'>
-                                <img src='src/assets/41ju4jdKW9L._SL500_.jpg' alt='fashin-t-shirt'></img>
+                                <img src={productImageTwo} alt='fashin-t-shirt'></img>
                             </div>
                             <h3>Arrival</h3>
                         </div>
@@ -97,7 +104,7 @@ const Home = () => {
                       <div className='col-4'>
                         <div className='clother-picks'>
                             <div className='Overlay-picks'>
-                                <img src='src/assets/41sjV7SFr6L._SL500_.jpg' alt='fashin-t-shirt'></img>
+                                <img src={productImageThree} alt='fashin-t-shirt'></img>
                             </div>
                             <h3>Man</h3>
                         </div>
@@ -105,7 +112,7 @@ const Home = () => {
                       <div className='col-4'>
                         <div className='clother-picks'>
                             <div className='Overlay-picks'>
-                                <img src='src/assets/41tfrlPfA8L._SL500_.jpg' alt='fashin-t-shirt'></img>
+                                <img src={productImageFour} alt='fashin-t-shirt'></img>
                             </div>
                             <h3>Fashion</h3>
                         </div>
@@ -113,7 +120,7 @@ const Home = () => {
                       <div className='col-4'>
                         <div className='clother-picks'>
                             <div className='Overlay-picks'>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashin-t-shirt'></img>
+                                <img src={productImage} alt='fashin-t-shirt'></img>
                             </div>
                             <h3>Accessories</h3>
                         </div>
@@ -125,7 +132,7 @@ const Home = () => {
             {/* Offers-news */}
                 <div className='row offers-new'>
                     <div className='col-1 img-overlay'>
-                        <img src='src/assets/clother-offers.png' alt='clother-offers'></img>
+                        <img src={offerImage} alt='clother-offers'></img>
                        <div className='overlay-content'>
                          <h5>Limited Offer</h5>
                         <h1>35% off only this friday<br/> and get special gift</h1>
@@ -162,7 +169,7 @@ const Home = () => {
                         <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -171,7 +178,7 @@ const Home = () => {
                         <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge old-sales'>Sale</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -180,7 +187,7 @@ const Home = () => {
                         <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -189,7 +196,7 @@ const Home = () => {
                         <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -198,7 +205,7 @@ const Home = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge old-sales'>Sale</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -207,7 +214,7 @@ const Home = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -216,7 +223,7 @@ const Home = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -225,7 +232,7 @@ const Home = () => {
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -253,27 +260,27 @@ const Home = () => {
                 <div className='row row-2'>
                     <div className='col-4'>
                         <div className='brands'>
-                            <img src='src/assets/logo.png' alt='brand-logo'></img>
+                            <img src={brandLogo} alt='brand-logo'></img>
                         </div>
                     </div>
                       <div className='col-4'>
                         <div className='brands'>
-                            <img src='src/assets/logo.png' alt='brand-logo'></img>
+                            <img src={brandLogo} alt='brand-logo'></img>
                         </div>
                     </div>
                       <div className='col-4'>
                         <div className='brands'>
-                            <img src='src/assets/logo.png' alt='brand-logo'></img>
+                            <img src={brandLogo} alt='brand-logo'></img>
                         </div>
                     </div>
                       <div className='col-4'>
                         <div className='brands'>
-                            <img src='src/assets/logo.png' alt='brand-logo'></img>
+                            <img src={brandLogo} alt='brand-logo'></img>
                         </div>
                     </div>
                       <div className='col-4'>
                         <div className='brands'>
-                            <img src='src/assets/logo.png' alt='brand-logo'></img>
+                            <img src={brandLogo} alt='brand-logo'></img>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import { TfiMenuAlt } from "react-icons/tfi";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { AiOutlineLine } from "react-icons/ai";
+import productImage from '../../assets/41kDS6JIn-L._SL500_.jpg';
 
 
 
@@ -189,7 +190,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge old-sales'>Sale</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                 <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -198,7 +199,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -207,7 +208,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -216,7 +217,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -225,7 +226,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -234,7 +235,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -243,7 +244,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -252,7 +253,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -261,7 +262,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge old-sales'>Sale</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -270,7 +271,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 <span className='badge new'>New</span>
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -279,7 +280,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>
@@ -288,7 +289,7 @@ const Shop = () => (
                           <div className='col-2'>
                             <div className='Products-Card'>
                                 {/* <span className='badge new'>New</span> */}
-                                <img src='src/assets/41kDS6JIn-L._SL500_.jpg' alt='fashion-clother'></img>
+                                <img src={productImage} alt='fashion-clother'></img>
                                 <h4> Printed A-Line Top</h4>
                                 <p className='Price'>$20.08 <del>$35.00</del></p>
                                  <a href='page'><button className='Cart-btn'>Add to cart</button></a>

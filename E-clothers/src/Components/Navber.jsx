@@ -5,6 +5,7 @@ import { IoIosSearch } from "react-icons/io";
 import { BiSolidUser } from "react-icons/bi";
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
 import { IoMdMenu } from "react-icons/io";
+import clothersLogo from '../assets/clothers.png';
 
 
 
@@ -15,7 +16,7 @@ const Navber = () => {
         <div className='container'>
            <div className='Header'>
             <div className='logo'>
-                <img src="src/assets/clothers.png "  alt="clother-logo"/>
+                <img src={clothersLogo} alt="clother-logo"/>
             </div>
              <nav className='Navber'> 
                 <ul className='nav-menus'>

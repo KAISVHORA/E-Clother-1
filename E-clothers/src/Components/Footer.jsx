@@ -7,6 +7,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import clothersLogo from '../assets/clothers.png';
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                 <div className=' row-col'>
                     <div className='footer-content col-3'>
                                  <div className='logo'>
-                <img src="src/assets/clothers.png "  alt="clother-logo"/>
+                <img src={clothersLogo} alt="clother-logo"/>
             </div>
             <p className='text-ft'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, perferendis alias! Quasi, repellat. Ams ipsa maxime impedit iste.</p>
             <div className='Footer-icons'>

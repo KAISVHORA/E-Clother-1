@@ -1,5 +1,6 @@
 import './sign.css'
 import { IoCartOutline } from "react-icons/io5";
+import clothersLogo from '../../../assets/clothers.png';
 
 
 const sign = () =>{
@@ -8,7 +9,7 @@ const sign = () =>{
             <div className='form-sign'>
                 <div className='row'>
                     <div className='col-1 image-left-sign'>
-                            <img src='src/assets/clothers.png' alt='logo-clthers'></img>
+                            <img src={clothersLogo} alt='logo-clthers'></img>
                         <h1>Get access to our Order,<br/> Wishlist and Recommendations</h1>
                          <button className='Primary-B secondary-W'><a href="login">LOGIN</a></button>
                     </div>
